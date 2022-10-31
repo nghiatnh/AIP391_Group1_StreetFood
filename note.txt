@@ -1,0 +1,15 @@
++ Remove Resolution
++ Normalization
++ Mean
++ Median
++ Remove data that 1, 2 annotators
+
+Data processing:
+
++ Remove unnecessary columns
++ Remove empty rows
++ Save to new .csv file
++ Calculate ICC coefficients
++ Calculate correlation coefficients
++ Calculate mean data and plot them
+-> Linear relation 
