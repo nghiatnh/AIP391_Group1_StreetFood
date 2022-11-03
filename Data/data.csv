@@ -1,4 +1,4 @@
-,ID,Annotater,video id,Attractive Level (1-5),Question 2: Sound (1-5),Question 2.1: Music (1-5),Question 2.2 : Noise control (1-5),Question 2.3 : Speaking Style (1-5),Question 3: Camera (1-5),Question 3.1: Stable (1-5),Question 3.2: Angel diversity (0-1),Question 4: Images (1-5),Question 4.1: Resolution (1-5),Question 4.2: Color (1-5),Question 5: Content (1-5),Question 5.1: Introduction (0-1),Question 5.2: Food description (0-1),Question 6: Reviewer (1-5),Question 6.1: Reviewer emotion is negative - neutral - positive (1-3),Question 6.2: Recommendation (0-1),Question 6.3: Clear information (0-1)
+,a,Annotater,video id,Attractive Level (1-5),Question 2: Sound (1-5),Question 2.1: Music (1-5),Question 2.2 : Noise control (1-5),Question 2.3 : Speaking Style (1-5),Question 3: Camera (1-5),Question 3.1: Stable (1-5),Question 3.2: Angel diversity (0-1),Question 4: Images (1-5),Question 4.1: Resolution (1-5),Question 4.2: Color (1-5),Question 5: Content (1-5),Question 5.1: Introduction (0-1),Question 5.2: Food description (0-1),Question 6: Reviewer (1-5),Question 6.1: Reviewer emotion is negative - neutral - positive (1-3),Question 6.2: Recommendation (0-1),Question 6.3: Clear information (0-1)
 1,1,nghiatnh,5OzrpNCyXqs,5.0,5.0,4,5,5,5.0,5,1,5.0,5,5,5,1,1,5.0,3,0,1
 2,2,hoangnd,5OzrpNCyXqs,5.0,5.0,5,5,4,5.0,5,1,5.0,5,5,5,1,1,5.0,3,0,1
 11,11,hanl,3qfTtx3yG5U,4.0,3.0,3,3,4,4.0,5,1,4.0,4,4,4,1,1,3.0,2,0,1
@@ -197,7 +197,7 @@
 572,546,haitm,umhYUSmtkIw,3.0,3.0,3,3,4,3.0,4,1,3.0,4,3,3,0,1,4.0,2,0,1
 573,547,taidpa,umhYUSmtkIw,3.0,3.0,3,3,2,4.0,5,1,3.0,4,3,5,1,1,4.0,3,0,1
 574,548,Lamnh,umhYUSmtkIw,3.0,2.0,3,2,3,3.0,4,0,3.0,4,3,2,1,1,2.0,2,0,1
-576,549,haitm,PLvjuNKms0M,2.0,2.0,2,2,3,3.0,2,0,33.0,4,2,3,0,1,2.0,1,0,0
+576,549,haitm,PLvjuNKms0M,2.0,2.0,2,2,3,3.0,2,0,3.0,4,2,3,0,1,2.0,1,0,0
 577,550,taidpa,PLvjuNKms0M,2.0,3.0,1,3,4,2.0,3,0,4.0,4,4,1,0,0,3.0,2,0,1
 578,551,haitm,G9uP3B8nDzY,4.0,4.0,4,4,4,4.0,4,1,4.0,4,4,4,1,1,4.0,3,1,1
 580,553,Lamnh,G9uP3B8nDzY,3.0,4.0,4,2,2,3.0,3,1,4.0,4,3,2,1,0,2.0,2,0,1
