@@ -11,6 +11,7 @@ from mainwindow import Ui_MainWindow
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 import pickle
+import math
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.dirname(SCRIPT_DIR))
@@ -99,24 +100,23 @@ class GUI(Ui_MainWindow):
     def btn_predict_clicked(self, checked) -> None:
         match self.cbb_model.currentIndex():
             case 0:
-                model_name = 'KNN_model'
+                model_name = 'Linear_Regression_model'
             case 1:
-                pass
-            case 2:
-                pass
-            case 3:
-                pass
-            case 4:
-                pass
-            case 5:
-                pass
-            case 6:
-                pass
-            case _:
                 model_name = 'KNN_model'
+            case 2:
+                model_name = 'Logistic_Regression_model'
+            case 3:
+                model_name = 'Decision_Tree_model'
+            case 4:
+                model_name = 'SVM_model'
+            case 5:
+                model_name = 'MLP_model'
+            case _:
+                model_name = 'Linear_Regression_model'
+
         clf = pickle.load(open('Model/{}'.format(model_name), 'rb'))
         X = [[self.sld_like_level_1.value(), self.sld_like_level_2.value(), self.sld_like_level_3.value(), self.sld_like_level_4.value(), self.sld_like_level_5.value()]]
-        result = clf.predict(X)[0]
+        result = math.ceil(clf.predict(X)[0])
         QMessageBox.information(self.mainwindow, 'Prediction Result', 'The attractive level of video is {}'.format(result))
 
     def sld_like_level_1_changed(self, position) -> None:

@@ -14,8 +14,8 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(960, 720)
-        MainWindow.setMinimumSize(QtCore.QSize(960, 720))
+        MainWindow.resize(960, 840)
+        MainWindow.setMinimumSize(QtCore.QSize(960, 840))
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.centralwidget)
@@ -220,7 +220,7 @@ class Ui_MainWindow(object):
         self.lb_like_level_5.setText(_translate("MainWindow", "1"))
         self.label_2.setText(_translate("MainWindow", "Model:"))
         self.cbb_model.setItemText(0, _translate("MainWindow", "Linear Regression"))
-        self.cbb_model.setItemText(1, _translate("MainWindow", "Softmax Regression"))
+        self.cbb_model.setItemText(1, _translate("MainWindow", "K-Nearest Neighbors"))
         self.cbb_model.setItemText(2, _translate("MainWindow", "Logistic Regression"))
         self.cbb_model.setItemText(3, _translate("MainWindow", "Decision Tree"))
         self.cbb_model.setItemText(4, _translate("MainWindow", "Suport Vector Machine"))
