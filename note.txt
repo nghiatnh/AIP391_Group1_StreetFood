@@ -30,3 +30,22 @@ Conclusion
 + Restate hypothesis
 + Contribution
 + Limitation, Further research
+
+
++ oversampling -> data preparation
+
+New Discussion
++ dung oversampling se tot hon khong dung
++ Linear Regression vs Logistic Regression tot nhat
++ Base-line: (da oversampling)
+    LiR: 33% -> 77% (tap test)
+    LoR: 72% -> 88% (tap test)
++ Li do: du lieu Linear, Logistic chi co 2 gia tri
+
++ 4 model con lai chua tot: 
+    Cung co tang so voi base-line, nhung bi over-fitting
++ Li do: model qua phuc tap so voi du lieu
+    MLP: tao duong khong tuyen tinh fit toan bo du lieu train
+    SVM: tuong tu MLP
+    Decision Tree: Chia qua nhieu truong hop -> over-fitting
+    KNN: qua cui, lay du lieu lan can nhung de bi nhieu (data con nhieu)
