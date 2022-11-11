@@ -20,7 +20,7 @@
    <string>Video Evaluation Tool</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout_2" stretch="6,0,3,0,0">
+   <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,0,0,0,0">
     <item>
      <layout class="QVBoxLayout" name="vlo_video_container"/>
     </item>
